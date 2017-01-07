@@ -8,6 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
+gem 'bootstrap-sass', '3.3.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -50,6 +51,7 @@ group :development do
   gem 'minitest-reporters', '1.1.9'
   gem 'guard', '2.13.0'
   gem 'guard-minitest', '2.4.4'
+  gem 'rails-controller-testing'
 end
 
 group :production do
