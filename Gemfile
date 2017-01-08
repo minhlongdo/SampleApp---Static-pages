@@ -10,8 +10,6 @@ end
 gem 'rails', '~> 5.0.1'
 gem 'bootstrap-sass', '3.3.6'
 gem 'bcrypt', '3.1.11'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -53,6 +51,8 @@ group :development do
   gem 'guard', '2.13.0'
   gem 'guard-minitest', '2.4.4'
   gem 'rails-controller-testing'
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 end
 
 group :production do
